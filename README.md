@@ -56,7 +56,7 @@ Se define la recompensa <img src="https://latex.codecogs.com/svg.image?\bg_white
  <center>
 <img src="https://latex.codecogs.com/svg.image?\bg_white&space;r^k=\sum_{i=1}^L\frac{M^kP_i^k}{S_i^k}(S_i^{k&plus;1}-S_i^k)" title="\bg_white r^k=\sum_{i=1}^L\frac{M^kP_i^k}{S_i^k}(S_i^{k+1}-S_i^k)" />
  
-**Politica:**
+**Política:**
 
 Para la metodología de aprendizaje de reforzado, se utilizan redes neuronales profundas (RNN) como política del agente, donde dados los estados se usa el modelo de red para extraer características y dar las acciones correspondientes.
 
