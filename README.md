@@ -48,7 +48,7 @@ Donde N es la ventana de tiempo definida para los estados y el desarrollo de la 
 
  **Acciones:**
 
- Las acciones se definen como la cartera $P_k$ que se elige en cada paso de tiempo, de acuerdo con <img src="https://latex.codecogs.com/svg.image?\bg_white&space;&space;P^k&space;=&space;(P_1^k,...,&space;P_L^k&space;)" title="\bg_white P^k = (P_1^k,..., P_L^k )" />, donde cada porcentaje <img src="https://latex.codecogs.com/svg.image?\bg_white&space;P_j^k" title="\bg_white P_j^k" /> se maneja en un espacio continuo de suma 1 (similar al ejemplo del bandido multibrazo).
+ Las acciones se definen como la cartera <img src="https://latex.codecogs.com/svg.image?\bg_white&space;P_k" title="\bg_white P_k" />  que se elige en cada paso de tiempo, de acuerdo con <img src="https://latex.codecogs.com/svg.image?\bg_white&space;&space;P^k&space;=&space;(P_1^k,...,&space;P_L^k&space;)" title="\bg_white P^k = (P_1^k,..., P_L^k )" />, donde cada porcentaje <img src="https://latex.codecogs.com/svg.image?\bg_white&space;P_j^k" title="\bg_white P_j^k" /> se maneja en un espacio continuo de suma 1 (similar al ejemplo del bandido multibrazo).
 
 **Recompensa:**
 
