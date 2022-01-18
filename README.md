@@ -21,15 +21,16 @@ Se proponé aplicar la metodología de aprendizaje de reforzado profundo aprendi
 
 # Definiciones:
 
-**Portafolio:** Un portafolio es un subconjunto de L acciones que pertenecen a un conjunto de <img src="https://latex.codecogs.com/svg.image?\bg_white&space;M^k" title="\bg_black M^k" /> activos totales presentes en el periodo k, por ejemplo: un portafolio puede estar compuesto por $0.3*Ecopetrol+0.5*BBVA+0.2*Dav$, debemos tener en cueta que tenemos la restricción: 
-$$ \sum_i p_i =1$$
+**Portafolio:** Un portafolio es un subconjunto de L acciones que pertenecen a un conjunto de <img src="https://latex.codecogs.com/svg.image?\bg_white&space;M^k" title="\bg_black M^k" /> activos totales presentes en el periodo k, por ejemplo: un portafolio puede estar compuesto por <img src="https://latex.codecogs.com/svg.image?\bg_white&space;0.3Ecopetrol&plus;0.5BBVA&plus;0.2*Dav" title="\bg_white 0.3Ecopetrol+0.5BBVA+0.2*Dav" />, debemos tener en cueta que tenemos la restricción: 
+<center>
+<img src="https://latex.codecogs.com/svg.image?\bg_white&space;\sum_i&space;p_i&space;=1" title="\bg_white \sum_i p_i =1" />
+</center>
+Donde <img src="https://latex.codecogs.com/svg.image?\bg_white&space;p_i" title="\bg_white p_i" /> corresponde al peso de la acción en un determinado portafolio
 
-Donde $p_i$ corresponde al peso de la acción en un determinado portafolio
 
+**Estado:** Considere el histórico de precios de un total de L acciones, donde el histórico de precios para un momento k, viene dado por:
 
-**Estado:** Considere el histórico de precios de un total de $L$ acciones, donde el histórico de precios para un momento $k$, viene dado por:
-
-$$ S^k =(S_1^k,..., S_L^k) $$
+<img src="https://latex.codecogs.com/svg.image?\bg_white&space;S^k&space;=(S_1^k,...,&space;S_L^k)" title="\bg_white S^k =(S_1^k,..., S_L^k)" />
 
 Note, que se está tomando el paso de tiempo de manera discreta. 
 
