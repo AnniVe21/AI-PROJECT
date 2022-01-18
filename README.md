@@ -7,9 +7,7 @@
 
 La gestión de carteras es un problema financiero en el que un agente redistribuye constantemente algún recurso financiero en un conjunto de activos con el fin de maximizar el rendimiento. Para este proyecto se proponé aplicar la metodología de aprendizaje de reforzado profundo al problema, con la ayuda de una Recurrent Neural Red (RNN) aplicada en el historico de las acciones de las empresas más representativas del mercado de valores Colombiano.
 
-<center>
 <img alt="" class="mu rl t u v jp aj c" width="557" height="609" role="presentation" src="https://miro.medium.com/max/557/1*2SsVy90fMd-Zl2RddYDl7Q.png" srcset="https://miro.medium.com/max/276/1*2SsVy90fMd-Zl2RddYDl7Q.png 276w, https://miro.medium.com/max/552/1*2SsVy90fMd-Zl2RddYDl7Q.png 552w, https://miro.medium.com/max/557/1*2SsVy90fMd-Zl2RddYDl7Q.png 557w" sizes="557px">
-<center>
  
 # Planteamiento
 
