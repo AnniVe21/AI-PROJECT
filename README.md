@@ -52,7 +52,7 @@ Donde N es la ventana de tiempo definida para los estados y el desarrollo de la 
 
 **Recompensa:**
 
-Se define la recompensa <img src="https://latex.codecogs.com/svg.image?\bg_white&space;((S^{k-N},S^{k-N&plus;1},...,&space;S^{k-1},&space;S^k,&space;P^{k-1}&space;),P^k)" title="\bg_white ((S^{k-N},S^{k-N+1},..., S^{k-1}, S^k, P^{k-1} ),P^k)" /> como el retorno de la inversión en la siguiente cartera <img src="https://latex.codecogs.com/svg.image?\bg_white&space;P^k" title="\bg_white P^k" />, donde el rendimiento esta determinado por la ganancia correspondiente al cambio porcentual entre el precio del estado $k+1$ con respecto al estado k ponderado para cada uno de los activos que componen el portafilo con su respectivo <img src="https://latex.codecogs.com/svg.image?\bg_white&space;P^k" title="\bg_white P^k" />:
+Se define la recompensa <img src="https://latex.codecogs.com/svg.image?\bg_white&space;((S^{k-N},S^{k-N&plus;1},...,&space;S^{k-1},&space;S^k,&space;P^{k-1}&space;),P^k)" title="\bg_white ((S^{k-N},S^{k-N+1},..., S^{k-1}, S^k, P^{k-1} ),P^k)" /> como el retorno de la inversión en la siguiente cartera <img src="https://latex.codecogs.com/svg.image?\bg_white&space;P^k" title="\bg_white P^k" />, donde el rendimiento esta determinado por la ganancia correspondiente al cambio porcentual entre el precio del estado k+1 con respecto al estado k ponderado para cada uno de los activos que componen el portafilo con su respectivo <img src="https://latex.codecogs.com/svg.image?\bg_white&space;P^k" title="\bg_white P^k" />:
  <center>
 <img src="https://latex.codecogs.com/svg.image?\bg_white&space;r^k=\sum_{i=1}^L\frac{M^kP_i^k}{S_i^k}(S_i^{k&plus;1}-S_i^k)" title="\bg_white r^k=\sum_{i=1}^L\frac{M^kP_i^k}{S_i^k}(S_i^{k+1}-S_i^k)" />
  
