@@ -4,7 +4,6 @@
 *   Natalia Castilla Reyes - ancastillar@unal.edu.co
 *   Miguel Angel Medina Rangel - mamedinar@unal.edu.co 
 *   Anni Melissa Velandia Echeverry - avelandiae@unal.edu.co
-*   <img src="https://latex.codecogs.com/svg.image?M^k" title="M^k" />
 
 La gestión de carteras es un problema financiero en el que un agente redistribuye constantemente algún recurso financiero en un conjunto de activos con el fin de maximizar el rendimiento. Para este proyecto se proponé aplicar la metodología de aprendizaje de reforzado profundo al problema, con la ayuda de una Recurrent Neural Red (RNN) aplicada en el historico de las acciones de las empresas más representativas del mercado de valores Colombiano.
 
@@ -25,7 +24,7 @@ Se proponé aplicar la metodología de aprendizaje de reforzado profundo aprendi
 
 # Definiciones:
 
-**Portafolio:** Un portafolio es un subconjunto de $L$ acciones que pertenecen a un conjunto de $M^k$ activos totales presentes en el periodo $k$, por ejemplo: un portafolio puede estar compuesto por $0.3*Ecopetrol+0.5*BBVA+0.2*Dav$, debemos tener en cueta que tenemos la restricción: 
+**Portafolio:** Un portafolio es un subconjunto de $L$ acciones que pertenecen a un conjunto de <img src="https://latex.codecogs.com/svg.image?M^k" title="M^k" /> activos totales presentes en el periodo $k$, por ejemplo: un portafolio puede estar compuesto por $0.3*Ecopetrol+0.5*BBVA+0.2*Dav$, debemos tener en cueta que tenemos la restricción: 
 $$ \sum_i p_i =1$$
 
 Donde $p_i$ corresponde al peso de la acción en un determinado portafolio
