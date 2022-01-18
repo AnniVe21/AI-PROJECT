@@ -21,7 +21,7 @@ Se proponé aplicar la metodología de aprendizaje de reforzado profundo aprendi
 
 # Definiciones:
 
-**Portafolio:** Un portafolio es un subconjunto de L acciones que pertenecen a un conjunto de <img src="https://latex.codecogs.com/svg.image?\bg_white&space;M^k" title="\bg_white M^k" /> activos totales presentes en el periodo k, por ejemplo: un portafolio puede estar compuesto por $0.3*Ecopetrol+0.5*BBVA+0.2*Dav$, debemos tener en cueta que tenemos la restricción: 
+**Portafolio:** Un portafolio es un subconjunto de L acciones que pertenecen a un conjunto de <img src="https://latex.codecogs.com/svg.image?\bg_white&space;M^k" title="\bg_black M^k" /> activos totales presentes en el periodo k, por ejemplo: un portafolio puede estar compuesto por $0.3*Ecopetrol+0.5*BBVA+0.2*Dav$, debemos tener en cueta que tenemos la restricción: 
 $$ \sum_i p_i =1$$
 
 Donde $p_i$ corresponde al peso de la acción en un determinado portafolio
