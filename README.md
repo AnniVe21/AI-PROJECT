@@ -11,7 +11,7 @@ La gestión de carteras es un problema financiero en el que un agente redistribu
 
 # Planteamiento
 
-Se proponé aplicar la metodología de aprendizaje de reforzado profundo aprendida en clase, con la ayuda de una Recurrent Neural Red (RNN), con el objetivo de crear **un agente que administre y gestione de manera optimá y lucrativa un portafolio diario de acciones de las empresas más representativas del mercado de valores Colombiano** como lo son Grupo Aval, Grupo Bolivar, Grupo Antioqueño, Ecopetrol, entre otros.
+Se proponé aplicar la metodología de aprendizaje de reforzado profundo aprendida en clase, con la ayuda de una Recurrent Neural Red (RNN), con el objetivo de **proponer una política para el agente de tal forma que administre y gestione de manera optimá y lucrativa un portafolio diario de acciones de las empresas más representativas del mercado de valores Colombiano** como lo son Grupo Aval, Grupo Bolivar, Grupo Antioqueño, Ecopetrol, entre otros.
 
 # Supuestos
 
