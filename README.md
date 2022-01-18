@@ -7,9 +7,6 @@
 
 La gestión de carteras es un problema financiero en el que un agente redistribuye constantemente algún recurso financiero en un conjunto de activos con el fin de maximizar el rendimiento. Para este proyecto se proponé aplicar la metodología de aprendizaje de reforzado profundo al problema, con la ayuda de una Recurrent Neural Red (RNN) aplicada en el historico de las acciones de las empresas más representativas del mercado de valores Colombiano.
 
-```math
-SE = \frac{\sigma}{\sqrt{n}}
-```
 
 # Problematica
 
@@ -17,14 +14,14 @@ Se proponé aplicar la metodología de aprendizaje de reforzado profundo aprendi
 
 # Supuestos
 
-* Continuidad: El precio de cierre de alguna acción específica, en el tiempo $t$, es el precio de apertuta en el instante $t+1$
+* Continuidad: El precio de cierre de alguna acción específica, en el tiempo t, es el precio de apertuta en el instante t+1.  
 * Impacto insignificante en el mercado: Los precios de las acciones se dan como datos de entrada y no deben verse afectados por las acciones del agente.
 * Unidad de acciones: En lugar de un número de acciones discreto, se permite que el agente pueda negociar cantidades continuas de acciones (por ejemplo, 3.4 acciones).
 
 
 # Definiciones:
 
-**Portafolio:** Un portafolio es un subconjunto de $L$ acciones que pertenecen a un conjunto de <img src="https://latex.codecogs.com/svg.image?M^k" title="M^k" /> activos totales presentes en el periodo $k$, por ejemplo: un portafolio puede estar compuesto por $0.3*Ecopetrol+0.5*BBVA+0.2*Dav$, debemos tener en cueta que tenemos la restricción: 
+**Portafolio:** Un portafolio es un subconjunto de L acciones que pertenecen a un conjunto de <img src="https://latex.codecogs.com/svg.image?M^k" title="M^k" /> activos totales presentes en el periodo k, por ejemplo: un portafolio puede estar compuesto por $0.3*Ecopetrol+0.5*BBVA+0.2*Dav$, debemos tener en cueta que tenemos la restricción: 
 $$ \sum_i p_i =1$$
 
 Donde $p_i$ corresponde al peso de la acción en un determinado portafolio
